@@ -1,0 +1,16 @@
+camera_server_node:
+  ros__parameters:
+    # Descriptive name of the camera hardware.
+    camera_name: "RPi4"
+
+    # Type of the camera (e.g., "USB", "CSI").
+    camera_type: "USB"
+
+    # Device index (e.g., 0 for /dev/video0).
+    device_index: 0
+
+    # Target frames per second.
+    fps: 30
+
+    # Hardware operation timeout duration in seconds.
+    timeout_seconds: 5

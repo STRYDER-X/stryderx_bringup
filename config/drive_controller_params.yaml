@@ -1,0 +1,18 @@
+drive_controller:
+  ros__parameters:
+    # X-Box 360 left trigger axis index.
+    left_trigger_button: 2
+
+    # X-Box 360 right trigger axis index.
+    right_trigger_button: 5
+
+    # Minimum steering ESC angle.
+    esc_min_angle: 80
+
+    # Neutral steering ESC angle.
+    esc_neutral_angle: 90
+
+    # Maximum steering ESC angle.
+    esc_max_angle: 100
+
+    clamp_esc_angle: True
