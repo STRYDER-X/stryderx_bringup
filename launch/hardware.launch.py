@@ -40,6 +40,6 @@ def generate_launch_description() -> LaunchDescription:
             include_launch(package_share_dir, "joystick.launch.py"),
             include_launch(package_share_dir, "drive.launch.py"),
             include_launch(package_share_dir, "steering.launch.py"),
-            include_launch(package_share_dir, "camera.launch.py"),
+            # include_launch(package_share_dir, "camera.launch.py"),
         ]
     )
