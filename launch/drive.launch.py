@@ -11,12 +11,7 @@ from launch import LaunchDescription
 
 
 def generate_launch_description() -> LaunchDescription:
-    """
-    Generate a launch description for the drive controller node.
-
-    Returns:
-        LaunchDescription: The launch description for the drive controller node.
-    """
+    """Generate a launch description for the drive controller node."""
     package_share_dir = get_package_share_directory("stryderx_bringup")
 
     drive_controller_config_file = os.path.join(
