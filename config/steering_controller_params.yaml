@@ -1,13 +1,4 @@
 steering_controller:
   ros__parameters:
-    # X-Box 360 left-stick horizontal axis index.
-    left_joystick: 0
-
-    # Minimum steering servo angle.
     min_angle: 40
-
-    # Neutral steering servo angle.
-    neutral_angle: 70
-
-    # Maximum steering servo angle.
     max_angle: 100

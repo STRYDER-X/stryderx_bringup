@@ -22,7 +22,7 @@ def generate_launch_description() -> LaunchDescription:
 
     camera_server_node = Node(
         package="stryderx_hardware",
-        executable="camera_server_node",
+        executable="camera_server",
         output="screen",
         parameters=[camera_config_file],
     )
