@@ -1,0 +1,5 @@
+joystick:
+  ros__parameters:
+    left_joystick: 0
+    left_trigger: 2
+    right_trigger: 5
